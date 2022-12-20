@@ -91,9 +91,9 @@ var_dump($impiegati);
             <img src="' . $card->immagine . '" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">' . $card->nome . '</h5>
-                <li>' . $card->generi->name . '</li>
-                <li>' . $card->prezzo . '</li>
-                <li>' . $card->autore . '</li>
+                <li>Genere: ' . $card->generi->name . '</li>
+                <li>Prezzo: ' . $card->prezzo . '$</li>
+                <li>Autore: ' . $card->autore . '</li>
             </div>
     </div>
     </div>';
